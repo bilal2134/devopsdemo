@@ -67,3 +67,9 @@ venv.bak/
 
 # PyCharm
 .idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
