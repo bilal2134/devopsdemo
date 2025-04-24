@@ -15,3 +15,4 @@ with mlflow.start_run():
     mlflow.log_param("solver", model.solver)
     mlflow.log_metric("score", model.score(X, y))
     joblib.dump(model, 'model.joblib')
+    print("Model trained, saved, and experiment logged to MLflow")
